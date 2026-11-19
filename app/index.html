@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Platinum — GTA 6 Trophy Guide &amp; Tracker</title>
+<meta name="description" content="Offline guide and tracker for all 55 Grand Theft Auto VI trophies on PlayStation 5: official names, descriptions and grades, a roadmap to the platinum, missable flags, and a cited guide for every trophy.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%231f4d3a'/%3E%3Ctext x='16' y='22' font-size='15' text-anchor='middle' fill='%23e8c96a' font-family='Georgia' font-weight='bold'%3ELP%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-mark" aria-hidden="true">LP</div>
+    <div>
+      <h1>Leonida Platinum</h1>
+      <p class="subtitle">GTA 6 Trophy Guide &amp; Tracker — PlayStation 5 · 55 trophies · 1 Platinum, 2 Gold, 6 Silver, 46 Bronze · 28 hidden · 0 online</p>
+    </div>
+  </div>
+  <div class="progress-box" id="progressBox" aria-live="polite">
+    <div class="progress-count"><span id="earnedCount">0</span><span class="of">/ 55 earned</span></div>
+    <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+    <div class="progress-pct" id="progressPct">0% to the platinum</div>
+    <div class="grade-counts" id="gradeCounts"></div>
+  </div>
+</header>
+
+<nav class="tabs" role="tablist" aria-label="Guide sections">
+  <button class="tab active" data-view="checklist" role="tab" aria-selected="true">Checklist</button>
+  <button class="tab" data-view="roadmap" role="tab" aria-selected="false">Roadmap to Platinum</button>
+  <button class="tab" data-view="missable" role="tab" aria-selected="false">Missable Trophies</button>
+  <button class="tab" data-view="sources" role="tab" aria-selected="false">Sources &amp; Method</button>
+</nav>
+
+<main>
+  <section id="view-checklist" class="view active" aria-label="Trophy checklist">
+    <div class="controls">
+      <label class="search-label">Search <input id="searchInput" type="search" placeholder="Search name or description…" autocomplete="off"></label>
+      <label>Grade
+        <select id="gradeFilter">
+          <option value="all">All grades</option>
+          <option value="platinum">Platinum</option>
+          <option value="gold">Gold</option>
+          <option value="silver">Silver</option>
+          <option value="bronze">Bronze</option>
+        </select>
+      </label>
+      <label>Kind
+        <select id="kindFilter">
+          <option value="all">All kinds</option>
+          <option value="story">Story</option>
+          <option value="side">Side strands</option>
+          <option value="activity">Activities</option>
+          <option value="collectible">Collectibles</option>
+          <option value="robbery">Robberies</option>
+          <option value="completion">100% completion</option>
+          <option value="misc">Miscellaneous</option>
+          <option value="platinum">Platinum</option>
+        </select>
+      </label>
+      <label class="check"><input type="checkbox" id="missableOnly"> Missable only</label>
+      <label class="check"><input type="checkbox" id="earnedOnly"> Earned only</label>
+      <label class="check"><input type="checkbox" id="remainingOnly"> Not yet earned</label>
+      <label class="check spoiler"><input type="checkbox" id="spoilerToggle"> Hide story spoilers</label>
+    </div>
+    <p class="hint" id="resultCount"></p>
+    <div class="layout">
+      <ul class="trophy-list" id="trophyList"></ul>
+      <aside class="detail" id="detailPane" aria-live="polite">
+        <p class="detail-empty">Select a trophy to read its guide and sources.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section id="view-roadmap" class="view" aria-label="Roadmap to the platinum">
+    <h2>Roadmap to the Platinum — about 200 hours, 1 playthrough</h2>
+    <p>Every trophy is offline and single-player, there are no difficulty trophies and no mission medals, and free roam continues after the story. The order below is built from the official descriptions: story first, then side strands, then the long grinds, then cleanup to 100%.</p>
+    <ol class="roadmap" id="roadmapList"></ol>
+    <h3>Save discipline</h3>
+    <p>There is no mission replay and no New Game Plus. Make a manual save at the start and end of every chapter (15 save slots). That is your only way back if you miss the Chapter 1 meditation — the one interaction that can lock the platinum.</p>
+  </section>
+
+  <section id="view-missable" class="view" aria-label="Missable trophies">
+    <h2>Missable trophies</h2>
+    <p>Only one trophy is reported as potentially missable. Everything else can be finished in free roam after the story.</p>
+    <div id="missableList"></div>
+    <h3>Why only one?</h3>
+    <p>PowerPyx, KeenGamer and EGamers all flag the same trophy: <strong>Positive Mental Attitude</strong>. Its first meditation — Lucia's on the balcony at Jason's house — is reported to disappear once Chapter 1 ends. No other trophy depends on a one-time moment, because story trophies unlock in order, side strands stay open, and collectibles and activities remain available after the finale.</p>
+  </section>
+
+  <section id="view-sources" class="view" aria-label="Sources and method">
+    <h2>Sources &amp; method</h2>
+    <p>Names, descriptions, grades and PSN progress targets were verified on 2026-11-19 against the official list as carried by Exophase and PSNProfiles — the two agree on every name, description and grade. Press-Start's launch-day list was used as a third check. Guide text is original writing for this entry; where a launch-day trigger is still unconfirmed, the guide says so instead of guessing.</p>
+    <ul class="source-list">
+      <li><a href="https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/">Exophase — Grand Theft Auto VI Trophies (PS5)</a> — official list: names, descriptions, grades.</li>
+      <li><a href="https://psnprofiles.com/trophies/43531-grand-theft-auto-vi">PSNProfiles — Grand Theft Auto VI Trophies</a> — names, descriptions, grades and PSN progress targets (0/250 stunts, 0/42 shooting-range golds, 0/18 meditations, 0/52 areas, 0/500 profile actions and more).</li>
+      <li><a href="https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/">PowerPyx — GTA 6 Trophy Guide &amp; Roadmap</a> — missable meditation, stunt counts (397 total), roadmap structure.</li>
+      <li><a href="https://www.keengamer.com/articles/guides/gta-6-trophy-guide-platinum-roadmap-all-55-trophies/">KeenGamer — GTA 6 Trophy Guide &amp; Platinum Roadmap</a> — 100% completion checklist figures, balcony meditation steps, per-trophy methods.</li>
+      <li><a href="https://press-start.com.au/news/2026/11/18/gta-6-trophy-list/">Press-Start — GTA 6 Trophy List</a> — third check on names and grades (18 Nov 2026).</li>
+      <li><a href="https://egamers.io/gta-6-trophy-list-all-55-trophies-and-achievements-plus-the-hardest-ones/">EGamers — GTA 6 Trophy List</a> — hidden count (28), only-missable confirmation.</li>
+      <li><a href="https://outputlag.com/guides/gta-6-trophy-list/">Output Lag — GTA 6 Trophy List</a> — list make-up and missable warning.</li>
+      <li><a href="https://www.gtavice.net/guides/trophies-and-achievements">GTAVice — Trophies &amp; Achievements</a> — per-trophy targets.</li>
+    </ul>
+    <h3>About this guide</h3>
+    <p>An original, fan-made tracker. It is not affiliated with Rockstar Games or Sony, uses no Rockstar logo or official artwork, and works fully offline — it fetches nothing at run time. Your checklist is saved in your browser only (localStorage); export and import keep it yours.</p>
+  </section>
+</main>
+
+<footer class="toolbar">
+  <div class="toolbar-group">
+    <button id="exportBtn" type="button">Export checklist (.json)</button>
+    <label class="import-label">Import checklist <input id="importInput" type="file" accept=".json,application/json"></label>
+    <button id="resetBtn" type="button">Reset progress</button>
+  </div>
+  <p class="toolbar-note" id="saveNote">Progress saves automatically in this browser.</p>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
